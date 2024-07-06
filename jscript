@@ -1,0 +1,135 @@
+function displayColor() {
+    const numberInput = document.getElementById("numberInput").value;
+    const colorDisplay = document.getElementById("colorDisplay");
+    const colorNameText = document.getElementById("colorNameText");
+
+    switch (numberInput) {
+        case "1":
+            colorDisplay.style.backgroundColor = "red";
+            colorNameText.textContent = "Red";
+            break;
+        case "2":
+            colorDisplay.style.backgroundColor = "black";
+            colorNameText.textContent = "Black";
+            break;
+        case "3":
+            colorDisplay.style.backgroundColor = "white";
+            colorNameText.textContent = "White";
+            break;
+        case "4":
+            colorDisplay.style.backgroundColor = "navy";
+            colorNameText.textContent = "Navy Blue";
+            break;
+        case "5":
+            colorDisplay.style.backgroundColor = "green";
+            colorNameText.textContent = "Green";
+            break;
+        case "6":
+            colorDisplay.style.backgroundColor = "yellow";
+            colorNameText.textContent = "Yellow";
+            break;
+        case "7":
+            colorDisplay.style.backgroundColor = "orange";
+            colorNameText.textContent = "Orange";
+            break;
+        case "8":
+            colorDisplay.style.backgroundColor = "purple";
+            colorNameText.textContent = "Purple";
+            break;
+        case "9":
+            colorDisplay.style.backgroundColor = "pink";
+            colorNameText.textContent = "Pink";
+            break;
+        case "10":
+            colorDisplay.style.backgroundColor = "#BC8F8F"; // Rosy Brown
+            colorNameText.textContent = "Rosy Brown";
+            break;
+	case "11":
+	    colorDisplay.style.backgroundColor = "gray";
+	    colorNameText.textContent = "Gray";
+	    break;
+	case "12":
+	    colorDisplay.style.backgroundColor = "#800020"; //Burgundy
+	    colorNameText.textContent = "Burgundy";
+	    break;
+	case "13":
+	    colorDisplay.style.backgroundColor = "#F0E68C"; //Khaki
+	    colorNameText.textContent = "Khaki";
+	    break;
+	case "14":
+	    colorDisplay.style.backgroundColor = "Indigo";
+	    colorNameText.textContent = "Indigo";
+	    break;
+	case "15":
+	    colorDisplay.style.backgroundColor = "Turquoise";
+	    colorNameText.textContent = "Turquoise";
+	    break;
+	case "16":
+	    colorDisplay.style.backgroundColor = "Gold";
+	    colorNameText.textContent = "Gold";
+	    break;
+	case "17":
+	    colorDisplay.style.backgroundColor = "Silver";
+	    colorNameText.textContent = "Silver";
+	    break;
+	case "18":
+	    colorDisplay.style.backgroundColor = "Chocolate";
+	    colorNameText.textContent = "Chocolate";
+	    break;
+	case "19":
+	    colorDisplay.style.backgroundColor = "Olive";
+	    colorNameText.textContent = "Olive";
+	    break;
+	case "20":
+	    colorDisplay.style.backgroundColor = "Teal";
+	    colorNameText.textContent = "Teal";
+	    break;
+	case "21":
+	    colorDisplay.style.backgroundColor = "Coral";
+	    colorNameText.textContent = "Coral";
+	    break;
+	case "22":
+	    colorDisplay.style.backgroundColor = "Salmon";
+	    colorNameText.textContent = "Salmon";
+	    break;
+	case "23":
+	    colorDisplay.style.backgroundColor = "#98FB98"; //Lime Green
+	    colorNameText.textContent = "Lime Green";
+	    break;
+	case "24":
+	    colorDisplay.style.backgroundColor = "Aqua";
+	    colorNameText.textContent = "Aqua";
+	    break;
+	case "25":
+	    colorDisplay.style.backgroundColor = "Peach";
+	    colorNameText.textContent = "Peach";
+	    break;
+	case "26":
+	    colorDisplay.style.backgroundColor = "#CED2D7"; //Steel
+	    colorNameText.textContent = "Steel";
+	    break;
+	case "27":
+	    colorDisplay.style.backgroundColor = "Sky Blue";
+	    colorNameText.textContent = "Sky Blue";
+	    break;
+	case "28":
+	    colorDisplay.style.backgroundColor = "#98FB98"; //Mint Green
+	    colorNameText.textContent = "Mint Green";
+	    break;
+	case "29":
+	    colorDisplay.style.backgroundColor = "Lavender";
+	    colorNameText.textContent = "Lavender";
+	    break;
+	case "30":
+	    colorDisplay.style.backgroundColor = "#87CEEB"; //Royal Blue
+	    colorNameText.textContent = "Royal Blue";
+	    break;
+	case "31":
+	    colorDisplay.style.backgroundColor = "#D2B48C"; //Tan
+	    colorNameText.textContent = "Tan";
+	    break;
+        default:
+            alert("Invalid number. Please enter a valid number between 1 and 31.");
+            break;
+    }
+}
