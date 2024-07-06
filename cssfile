@@ -1,0 +1,54 @@
+title {
+    font-family: 'Arial', sans-serif;
+    font-color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255,127,255,0);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1{
+    color: white;
+}
+
+h2 {
+  color: red;
+font-family: aeonik air;
+}
+label {
+    background-color: yellow;	
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background-color: rgb(255,255,255)
+}
+
+#colorNameText {
+    margin-top: 10px;
+    background-color: white; 	
+}
+ p{
+    margin-top: 10px;
+    background-color: white; 	
+}
