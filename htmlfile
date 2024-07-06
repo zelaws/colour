@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>COLOUR GAME</h1>
+	<h2>Make a splash of color! Pick a number and watch your wish come to life in vibrant hues!</h2>
+        <label for="numberInput">Choose or Enter a number (1 to 100):</label>
+        <!-- Use a text input for typing -->
+        <input type="text" id="numberInput" pattern="[1-9]|100">
+        <button onclick="displayColor()">Submit</button>
+        <div id="colorDisplay" class="color-box"></div>
+        <p id="colorNameText"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
